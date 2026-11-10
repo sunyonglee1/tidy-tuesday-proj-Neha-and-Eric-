@@ -1,7 +1,4 @@
-# tidy tuesday proj (Neha and Eric)
-lab 11/10
-
-# TidyTuesday: Edible Plants Database
+# Tidy Tuesday: Edible Plants Database
 
 ## Team
 
@@ -16,23 +13,32 @@ The dataset contains information about edible plant species and their growing co
 
 ## Research Question
 
-**Do plants that require more sunlight also require higher temperatures?**
+**What cultivation classes require the most water?**
 
 ## Analysis
 
-We will explore the relationship between the amount of sunlight required by edible plants and their preferred growing temperatures.
+We explore the water requirements of edible plants across different cultivation classes.
 
-We will:
+We:
 
 1. Clean and prepare the data.
-2. Explore the relevant variables.
-3. Visualize the relationship between sunlight requirements and temperature.
-4. Summarize the main findings.
-5. Discuss limitations of the analysis.
+2. Examine water requirements by cultivation class.
+3. Calculate the percentage of plants requiring high water within each cultivation class.
+4. Visualize the cultivation classes with high water requirements.
+5. Summarize the main findings.
 
 ## Results
 
-*Results and visualizations will be added here after completing the analysis.*
+The **Salad** cultivation class has the highest percentage of plants requiring high water, at **66.7%**.
+
+This is followed by:
+
+- Brassica: 38.1%
+- Cucurbit: 37.5%
+- Lamiaceae: 25.0%
+- Umbelliferae: 25.0%
+- Miscellaneous: 12.3%
+- Legume: 10.0%
 
 ## Website
 
@@ -44,10 +50,11 @@ The analysis code and data used for this project are included in this repository
 
 The main files are:
 
-- `2026-02-03/cleaning.R` — data cleaning
+- `2026-02-03/cleaning.R` — data cleaning and analysis
 - `2026-02-03/edible_plants.csv` — dataset
 - `2026-02-03/edible_plants.md` — dataset documentation
 - `2026-02-03/meta.yaml` — dataset metadata
+- `2026-02-03/high_water.png` — visualization of high water requirements
 
 ## Acknowledgments
 
